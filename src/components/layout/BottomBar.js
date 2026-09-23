@@ -27,7 +27,7 @@ export default function BottomBar() {
         </a>
         <a
           href="#"
-          className="grid place-items-center rounded-md bg-linear-to-b from-gold-400 to-gold-600 text-base font-semibold text-white"
+          className="grid place-items-center rounded-md bg-linear-to-r from-gold-400 to-gold-600 text-base font-semibold text-white"
         >
           Login
         </a>
