@@ -51,12 +51,12 @@ const games = {
     {
       name: "Cricket Century Kings",
       image:
-        "	https://img.m167cw.com/upload/websitecategory/150667/darkIcon.png?v=1789620497192",
+        "https://img.m167cw.com/upload/websitecategory/150667/darkIcon.png?v=1789620497192",
     },
     {
       name: "Dragon Gems 500",
       image:
-        "	https://img.m167cw.com/upload/websitecategory/150274/darkIcon.png?v=1789620497178",
+        "https://img.m167cw.com/upload/websitecategory/150274/darkIcon.png?v=1789620497178",
     },
     {
       name: "7 Up 7 Down",
@@ -66,7 +66,7 @@ const games = {
     {
       name: "Fortune Garuda 1000",
       image:
-        "	https://img.m167cw.com/upload/websitecategory/150274/darkIcon.png?v=1789620497178",
+        "https://img.m167cw.com/upload/websitecategory/150274/darkIcon.png?v=1789620497178",
     },
     {
       name: "Gates of Olympus",
@@ -96,7 +96,7 @@ const games = {
     {
       name: "Live Baccarat",
       image:
-        "	https://img.m167cw.com/upload/websitecategory/45919/darkIcon.webp?v=1789620497200",
+        "https://img.m167cw.com/upload/websitecategory/45919/darkIcon.webp?v=1789620497200",
     },
     {
       name: "Bountiful Birds",
@@ -258,7 +258,7 @@ export const favourites = [
 export const popularGames = [
   {
     name: "Lucky Tamarin",
-    image: "	https://img.m167cw.com/upload/game/AWCV2_JILI/JILI-SLOT-151.png",
+    image: "https://img.m167cw.com/upload/game/AWCV2_JILI/JILI-SLOT-151.png",
   },
   {
     name: "Fortune Garuda 1000",
@@ -271,7 +271,7 @@ export const popularGames = [
   },
   {
     name: "Money Coming",
-    image: "	https://img.m167cw.com/upload/game/AWCV2_JILI/JILI-SLOT-151.png",
+    image: "https://img.m167cw.com/upload/game/AWCV2_JILI/JILI-SLOT-151.png",
   },
   {
     name: "Boxing King",
@@ -414,8 +414,8 @@ export const socials = [
 export const paymentMethods = [
   { id: "bank-deposit", name: "Bank Deposit", image: "https://img.m167cw.com/mcw/h5/assets/images/footer/white/pay33.png?v=1790125220324&source=mcdsrc" },
   { id: "bkash", name: "bKash", image: "https://img.m167cw.com/mcw/h5/assets/images/footer/white/pay16.png?v=1790125220324&source=mcdsrc" },
-  { id: "rocket", name: "Rocket", image: "	https://img.m167cw.com/mcw/h5/assets/images/footer/white/pay33.png?v=1790125220324&source=mcdsrc" },
-  { id: "nagad", name: "Nagad", image: "	https://img.m167cw.com/mcw/h5/assets/images/footer/white/pay33.png?v=1790125220324&source=mcdsrc" },
+  { id: "rocket", name: "Rocket", image: "https://img.m167cw.com/mcw/h5/assets/images/footer/white/pay33.png?v=1790125220324&source=mcdsrc" },
+  { id: "nagad", name: "Nagad", image: "https://img.m167cw.com/mcw/h5/assets/images/footer/white/pay33.png?v=1790125220324&source=mcdsrc" },
   { id: "crypto", name: "Crypto", image: "https://img.m167cw.com/mcw/h5/assets/images/footer/white/pay16.png?v=1790125220324&source=mcdsrc" },
   { id: "upay", name: "Upay", image: "https://img.m167cw.com/mcw/h5/assets/images/footer/white/pay45.png?v=1790125220324&source=mcdsrc" },
   { id: "ok-wallet", name: "OK Wallet", image: "https://img.m167cw.com/mcw/h5/assets/images/footer/white/pay45.png?v=1790125220324&source=mcdsrc" },
