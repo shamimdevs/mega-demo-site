@@ -1,26 +1,64 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@theme {
+  /* Navy surfaces, taken from the reference screenshots */
+  --color-ink-950: #141830;
+  --color-ink-900: #1b2040;
+  --color-ink-800: #20264a;
+  --color-ink-700: #2c345f;
+  --color-ink-600: #3b4579;
+  --color-ink-500: #4c5790;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  /* Brand gold */
+  /* Brand Gold */
+  --color-gold-200: #f5e8c3;
+  --color-gold-300: #ebd79a;
+  --color-gold-400: #c9a33d;
+  --color-gold-500: #c9a33c;
+  --color-gold-600: #a9872f;
+  --color-gold-700: #80651f;
+  --font-sans: var(--font-jost), ui-sans-serif, system-ui, sans-serif;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  --animate-marquee: marquee 18s linear infinite;
+  /* Seamless loop for a track rendered twice back to back */
+  --animate-marquee-loop: marquee-loop 25s linear infinite;
+
+  @keyframes marquee-loop {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
   }
 }
 
+@utility no-scrollbar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@utility corner-flag {
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
+
+html {
+  background: var(--color-ink-950);
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
 }
